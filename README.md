@@ -1,2 +1,2 @@
 # Bash-scripting
-Bash- scripting with some egs
+Bash- scripting with some examples.
