@@ -1,7 +1,7 @@
 #!/bin/bash
 
 USERID=$(id -u)
-DATE$(date+%F-%T)
+DATE$(date +%F-%T)
 LOG_FILE="$DATE.log"
 R="\e[31m"
 G="\e[32m"
