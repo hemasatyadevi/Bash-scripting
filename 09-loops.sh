@@ -25,7 +25,7 @@ VALIDATE(){
     fi
 }
 
-for PACKAGE IN $@   #sample input: git vim net-tools wget
+for PACKAGE IN "$@"   #sample input: git vim net-tools wget
 do 
   
   yum -q list installed $PACKAGE &>>/dev/null
