@@ -6,5 +6,5 @@ echo "please enter password"
 read -s PASSWORD
 echo "password is ${PASSWORD}"
 
-echo "Number of args passed are :$#"
-echo "what are the args passed are :$@"
+echo "$#"
+echo "$@"
